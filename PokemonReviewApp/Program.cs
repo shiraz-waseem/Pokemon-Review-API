@@ -13,6 +13,8 @@ builder.Services.AddControllers();
 
 builder.Services.AddTransient<Seed>();
 
+//Auto Mapper
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 // Dependency Injection
 builder.Services.AddScoped<IPokemonRepository, PokemonRepository>();
 

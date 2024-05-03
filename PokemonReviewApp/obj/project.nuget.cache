@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "VA7+JAnzQZZ8el6iuRkYsCG+H4F3BSE6i2stFhU3iznbQVTwjOMruFGEeEvCAEi/p9AavJMOM5zeCKpm6JCyOg==",
+  "dgSpecHash": "7q7au0NwzRUe5ygaL4b7DR4gJixDfBomRvN35qryJuT8wZ46WUlkNyLW4UFznydSW5qh4qSG1Dw8wnfYDTT1iQ==",
   "success": true,
   "projectFilePath": "D:\\Learning Projects ( Mine )\\PokemonReviewApp\\PokemonReviewApp\\PokemonReviewApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ShirazWaseem\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\ShirazWaseem\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ShirazWaseem\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\ShirazWaseem\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
