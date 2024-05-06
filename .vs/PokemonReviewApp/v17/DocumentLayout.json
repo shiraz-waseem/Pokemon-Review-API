@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Learning Projects ( Mine )\\PokemonReviewApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DFA46FB4-B4EC-45D0-824F-5AB4EBFD9006}|PokemonReviewApp\\PokemonReviewApp.csproj|d:\\learning projects ( mine )\\pokemonreviewapp\\pokemonreviewapp\\repository\\reviewerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFA46FB4-B4EC-45D0-824F-5AB4EBFD9006}|PokemonReviewApp\\PokemonReviewApp.csproj|solutionrelative:pokemonreviewapp\\repository\\reviewerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFA46FB4-B4EC-45D0-824F-5AB4EBFD9006}|PokemonReviewApp\\PokemonReviewApp.csproj|d:\\learning projects ( mine )\\pokemonreviewapp\\pokemonreviewapp\\controllers\\reviewercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFA46FB4-B4EC-45D0-824F-5AB4EBFD9006}|PokemonReviewApp\\PokemonReviewApp.csproj|solutionrelative:pokemonreviewapp\\controllers\\reviewercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFA46FB4-B4EC-45D0-824F-5AB4EBFD9006}|PokemonReviewApp\\PokemonReviewApp.csproj|d:\\learning projects ( mine )\\pokemonreviewapp\\pokemonreviewapp\\models\\reviewer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFA46FB4-B4EC-45D0-824F-5AB4EBFD9006}|PokemonReviewApp\\PokemonReviewApp.csproj|solutionrelative:pokemonreviewapp\\models\\reviewer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReviewerRepository.cs",
+              "DocumentMoniker": "D:\\Learning Projects ( Mine )\\PokemonReviewApp\\PokemonReviewApp\\Repository\\ReviewerRepository.cs",
+              "RelativeDocumentMoniker": "PokemonReviewApp\\Repository\\ReviewerRepository.cs",
+              "ToolTip": "D:\\Learning Projects ( Mine )\\PokemonReviewApp\\PokemonReviewApp\\Repository\\ReviewerRepository.cs*",
+              "RelativeToolTip": "PokemonReviewApp\\Repository\\ReviewerRepository.cs*",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAzwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:20:33.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Reviewer.cs",
+              "DocumentMoniker": "D:\\Learning Projects ( Mine )\\PokemonReviewApp\\PokemonReviewApp\\Models\\Reviewer.cs",
+              "RelativeDocumentMoniker": "PokemonReviewApp\\Models\\Reviewer.cs",
+              "ToolTip": "D:\\Learning Projects ( Mine )\\PokemonReviewApp\\PokemonReviewApp\\Models\\Reviewer.cs",
+              "RelativeToolTip": "PokemonReviewApp\\Models\\Reviewer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:18:25.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReviewerController.cs",
+              "DocumentMoniker": "D:\\Learning Projects ( Mine )\\PokemonReviewApp\\PokemonReviewApp\\Controllers\\ReviewerController.cs",
+              "RelativeDocumentMoniker": "PokemonReviewApp\\Controllers\\ReviewerController.cs",
+              "ToolTip": "D:\\Learning Projects ( Mine )\\PokemonReviewApp\\PokemonReviewApp\\Controllers\\ReviewerController.cs",
+              "RelativeToolTip": "PokemonReviewApp\\Controllers\\ReviewerController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA6wEAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:13:15.558Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
