@@ -13,6 +13,9 @@ namespace PokemonReviewApp.Interfaces
         // shiraz ka konsa pokemon ha?
         ICollection<Pokemon> GetPokemonByOwner(int ownerId);
         bool OwnerExists(int ownerId);
+        bool CreateOwner(Owner owner);
+        bool Save();
+
 
     }
 }

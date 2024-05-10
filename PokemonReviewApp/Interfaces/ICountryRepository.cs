@@ -11,6 +11,9 @@ namespace PokemonReviewApp.Interfaces
         ICollection<Owner> GetOwnersFromACountry(int countryId);        // Kisi country id py kitna owners ha
 
         bool CountryExists(int id);
+        bool CreateCountry(Country country);
+        bool Save();
+
 
     }
 }

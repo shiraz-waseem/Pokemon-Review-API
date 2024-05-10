@@ -69,5 +69,40 @@ namespace PokemonReviewApp.Controllers
         }
 
 
+        [HttpPost]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        public IActionResult CreateCategory([FromBody] CategoryDto categoryCreate)
+        {
+            if(categoryCreate == null)
+                    return BadRequest(ModelState);
+
+            // If there is any instance and make sure there is not any category exist. It will be bad server errror ajata we will produce our error
+            var category = _categoryRepository.GetCategories().Where(c => c.Name.Trim().ToUpper() == categoryCreate.Name.TrimEnd().ToUpper()).FirstOrDefault();
+
+            if (category != null)
+            {
+                ModelState.AddModelError("", "Category already exists");
+                return StatusCode(422,ModelState);
+            }
+
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var categoryMap = _mapper.Map<Category>(categoryCreate);
+
+            if (!_categoryRepository.CreateCategory(categoryMap))
+            {
+                // key value pair. We dont have key so empty
+                ModelState.AddModelError("", "Something went wrong while savin");
+                return StatusCode(500, ModelState);
+            }
+
+            // Bad request return nahi means its successfully created
+            return Ok("Successfully created");
+
+        }
+
+        
     }
 }
