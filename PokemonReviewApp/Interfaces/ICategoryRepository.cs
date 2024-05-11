@@ -10,6 +10,7 @@ namespace PokemonReviewApp.Interfaces
         bool CategoryExists(int id);   // Checking to exist, its not returning data
 
         bool CreateCategory(Category category);
+        bool UpdateCategory(Category category);
         bool Save();
 
     }
