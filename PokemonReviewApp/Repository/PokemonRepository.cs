@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Components;
+using Microsoft.EntityFrameworkCore;
 using PokemonReviewApp.Data;
 using PokemonReviewApp.Interfaces;
 using PokemonReviewApp.Models;
@@ -42,6 +43,40 @@ namespace PokemonReviewApp.Repository
         public bool PokemonExists(int pokeId)
         {
             return _context.Pokemon.Any(p => p.Id == pokeId);
+        }
+
+        public bool CreatePokemon(int ownerId, int categoryId, Pokemon pokemon)
+        {
+            // Getting the owner and category
+            var pokemonOwnerEntity = _context.Owners.Where(a => a.Id == ownerId).FirstOrDefault();
+            var category = _context.Categories.Where(a => a.Id == categoryId).FirstOrDefault();
+
+            // you can do automapper but this is better and concise
+            var pokemonOwner = new PokemonOwner()
+            {
+                Owner = pokemonOwnerEntity,
+                Pokemon = pokemon
+            };
+
+            _context.Add(pokemonOwner);   // Adding to database
+
+            var pokemonCategory = new PokemonCategory()
+            {
+                Category = category,
+                Pokemon = pokemon,
+            };
+
+            _context.Add(pokemonCategory);
+
+            _context.Add(pokemon);
+
+            return Save();
+        }
+
+        public bool Save()
+        {
+            var saved = _context.SaveChanges();
+            return saved > 0 ? true : false;
         }
     }
 }
